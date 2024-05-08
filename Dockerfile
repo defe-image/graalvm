@@ -1,7 +1,3 @@
-# Context from Code Snippet D:/Project/openjdk-with-skopeo/README.md:# openjdk-with-skopeo
-# openjdk-with-skopeo
-# openjdk17安装skopeo
-#
-FROM openjdk:17
+FROM container-registry.oracle.com/graalvm/jdk:17
 
-RUN microdnf install skopeo && microdnf clean all
+RUN microdnf install fontconfig && microdnf clean all
