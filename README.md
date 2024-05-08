@@ -1,2 +1,3 @@
-# openjdk-with-skopeo
-openjdk17安装skopeo
+# graalvm
+
+Basic image: container-registry.oracle.com/graalvm/jdk:17
